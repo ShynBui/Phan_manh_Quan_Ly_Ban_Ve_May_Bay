@@ -1,0 +1,33 @@
+body{
+background-image: url(https://www.vietnamairlines.com/~/media/Images/VNANew/FareDeal/default-bg.jpg?mw=1300);
+background-size:cover;
+    background-position: center;
+}
+.container{
+    background: white;
+    border: 1px solid #ccc;
+    box-shadow: 10px 32px 59px -8px #efeaea;
+}
+.sub{
+    justify-content: space-between;
+        align-items: center;
+}
+.control{
+    display:flex;
+    justify-content:space-around;
+}
+.sub h1{
+    font-size: 18px;
+    font-weight:600;
+}
+.sub__type input{
+    width:450px;
+
+
+}
+.main{
+    padding:15px;
+    width: 60%;
+    margin: 0 auto;
+
+}

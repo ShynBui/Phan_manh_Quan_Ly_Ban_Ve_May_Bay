@@ -1,0 +1,109 @@
+body{
+    background-image: url(https://www.vietnamairlines.com/~/media/Images/VNANew/FareDeal/default-bg.jpg?mw=1300);
+    background-size:cover;
+    background-position:center;
+}
+.main{
+
+width:60%;
+margin:0 auto;
+    display:flex;
+        border: solid 1px;
+
+    justify-content: center;
+    background-color:#ebf2fa;
+    margin-top:45px;
+}
+.main__left{
+    display:flex;
+    align-items: center;
+}
+.header{
+    height:fit-content !important;
+}
+.main__right{
+    margin-top:20px;
+    margin-left: 10%;
+    width:50%;
+    display:flex;
+    flex-direction:column;
+}
+.main__right div{
+    display: flex;
+   justify-content: space-between;
+   margin-bottom:25px;
+}
+div h1{
+    font-size:20px;
+
+}
+div input{
+    width:50%;
+    height: 45px;
+
+}
+.btn div{
+    width:90px;
+}
+.btn{
+    margin-top:10px;
+}
+#btn1 {
+    width:100% !important;
+    text-align: center;
+border-color: #0f8db1;
+border-width: 2px;
+border-radius: 3px;
+color:
+#0f8db1;
+transition: all 0.5s;
+}
+.pass__sub{
+    width:228px;
+    position:relative;
+}
+.pass__sub > input{
+    width:100%;
+}
+.icon{
+        position: absolute;
+    top: 13px;
+    right: 13px;;
+}
+#btn2{
+    width:100% !important;
+    text-align: center;
+border-color: #0f8db1;
+border-width: 2px;
+border-radius: 3px;
+color:
+#0f8db1;
+transition: all 0.5s;
+}
+#btn1:hover {
+    background-color:#0f8db1;
+    color:white;
+}
+#btn2:hover {
+    background-color:#0f8db1;
+    color:white;
+}
+.btn__sub{
+    background:white;
+    text-align: center;
+    border-color: #0f8db1;
+    border-width: 2px;
+    border-radius: 3px;
+    color:
+    #0f8db1;
+        padding: 7px 20px;
+    transition: all 0.5s;
+    border:solid;
+        width: 99px !important;
+}
+.btn__sub:hover{
+    background-color:#0f8db1;
+    border-color: #0f8db1;
+    color:white;
+
+}

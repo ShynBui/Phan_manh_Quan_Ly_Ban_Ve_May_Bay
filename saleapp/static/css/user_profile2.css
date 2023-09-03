@@ -1,0 +1,89 @@
+.header{
+    height: fit-content;
+}
+body{
+    background-image: url(https://www.vietnamairlines.com/~/media/Images/VNANew/FareDeal/default-bg.jpg?mw=1300);
+    background-size:cover;
+    background-position:center;
+}
+.main{
+border:solid 1px;
+        background-color: #ebf2fa;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+        height: 500px;
+    width: 60%;
+    margin: 0 auto;
+        margin-top: 45px;
+}
+form div {
+margin-bottom: 15px;
+}
+label{
+        font-size: 20px;
+    font-weight: 600;
+}
+.type .type__sub{
+    height:45px;
+    width: 70%;
+}
+.main__right{
+        margin-top: 20px;
+    display: flex;
+    width: 420px;
+    /* justify-content: space-between; */
+
+}
+form{
+
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+
+
+}
+.type{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+.control{
+        display: flex;
+    justify-content: space-around;
+}
+.btn{
+
+    background:white;
+    text-align: center;
+    border-color: #0f8db1;
+    border-width: 2px;
+    border-radius: 3px;
+    color:
+    #0f8db1;
+        padding: 7px 20px;
+    transition: all 0.5s;
+    border:solid;
+}
+.btn:hover{
+    background-color:#0f8db1;
+    border-color: #0f8db1;
+    color:white;
+}
+.btn a {
+    color:#0f8db1;
+}
+.btn:hover a {
+    color:white;
+}
+.password{
+
+    position: relative;
+
+}
+.icon{
+        position: absolute;
+    right: 10px;
+    top: 13px;
+}
